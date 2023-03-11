@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* CSS variables */
+  :root{
+    --primary-color : #030236;
+  }
+  
+  body{
+    background-color: var(--primary-color);
+  }
+  
+  *{
+      font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+      color: #18166b;
+  }
+  
+  .container{
+      width: 80%;
+      height: 100%;
+      margin:0px auto;
+      justify-content: center;
+      background-color: white;
+      padding: 1rem 2rem;
+      text-align: inherit;
+  }
+  
+  .title{   
+      text-align: center;
+      margin-top: 0rem;
+      padding-top: 0rem;
+  }
+  .image{
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  .btn{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  #dogButton{
+     background-color: #a5bfe9;
+     font-weight:bold;
+     color:white;
+     border-color: yellow;
+     font-size: 1rem;
+  }
